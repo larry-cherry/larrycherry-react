@@ -1,0 +1,10 @@
+.AboutMe {
+    width: calc(100% - 100px);
+    margin: auto;
+}
+
+@media (min-width: 720px) {
+    .AboutMe {
+        width: 35%;
+    }
+}

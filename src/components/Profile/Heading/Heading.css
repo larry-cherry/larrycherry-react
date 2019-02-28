@@ -1,0 +1,22 @@
+.Heading {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+.Heading > img {
+    width: 150px;
+    border-radius: 25%
+}
+
+.Heading > .Heading-links > a {
+    text-decoration: none;
+    color: var(--primary-color-text);
+    font-size: 12px;
+}
+
+.Heading > .Heading-links > a > img {
+    width: 36px;
+    fill: white;
+    margin: 0 10px;
+}
