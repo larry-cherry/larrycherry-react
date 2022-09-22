@@ -1,5 +1,4 @@
 import React from "react";
-import "./Heading.css";
 import larry from "../../../assets/images/larry-cherry.jpg";
 import faGithub from "../../../assets/icons/github-square-brands.svg";
 import faLinkedIn from "../../../assets/icons/linkedin-brands.svg";
