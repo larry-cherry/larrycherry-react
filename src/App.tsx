@@ -21,6 +21,7 @@ class App extends Component {
                   <a
                     href="https://drive.google.com/drive/folders/1NL5DSHZ5RGUojYmaOZXdLPWZj7th9X9U?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Resume
                   </a>

@@ -5,7 +5,7 @@ export const Project = ({ title, image, description, link }: ProjectProps) => (
     <h4>
       <a href={link}>{title}</a>
     </h4>
-    <img src={image} />
+    <img src={image} alt={title} />
     <p>{description}</p>
   </div>
 );

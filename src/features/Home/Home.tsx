@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 // import {Link} from 'react-router-dom';
-import { Profile } from "./components/Profile";
+import { Heading } from "./components/Heading";
 import { AboutMe } from "./components/AboutMe";
 import { Layout } from "../../hoc/Layout/Layout";
 
 export const Home = () => (
   <Layout>
-    <Profile />
+    <Heading />
     <AboutMe />
   </Layout>
 );

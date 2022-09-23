@@ -12,7 +12,7 @@
 body {
   background-color: var(--primary-color);
   font-family: 'Kaushan Script', cursive;
-  color: white;
+  color: var(--primary-color-text);
   text-align: center;
   -webkit-animation-name: shifting-background; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
@@ -87,4 +87,9 @@ body {
   0%   {background-color: var(--primary-color);}
   50%  {background-color: #7f0200; }
   100%  {background-color: var(--primary-color); }
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  color: var(--primary-color-text);
+  font-family: 'Tapestry', cursive;
 }
